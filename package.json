@@ -7,10 +7,17 @@
         "ad-pwa-setup": "node ./bin/install.js"
     },
     "bin": {
-        "ad-pwa-setup": "./bin/install.js"
+        "ad-pwa-setup": "bin/install.js"
     },
     "author": "Amadou Bente Diallo",
     "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devamadoud/abd-pwa-setup.git"
+    },
+    "bugs": {
+        "url": "https://github.com/devamadoud/abd-pwa-setup/issues"
+    },
+    "homepage": "https://github.com/devamadoud/abd-pwa-setup#readme"
 }
